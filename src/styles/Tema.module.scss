@@ -4,7 +4,8 @@
 .container {
   padding: 50px $padding-horizontal;
   @media (max-width: $desktop_xsm) {
-    padding: 50px $padding-horizontal-mobile;
+    padding: 50px 0;
+    text-align: center;
   }
   @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
     padding: 50px $padding-horizontal-sm;
@@ -15,6 +16,7 @@
 }
 
 .titulo {
+  
   color: $dark;
   font-size: 3rem;
   margin-bottom: 30px;
